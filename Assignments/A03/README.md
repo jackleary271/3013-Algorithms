@@ -13,6 +13,14 @@ My (and ChatGPT's) additions to Professor Griffin's BST code to add a delete fil
 - If the node to be deleted has no left or right children, simply remove it and free its memory.
 - Example:
 
+         8 
+        /
+       3
+- Deleting 3 results in:
+
+          8
+
+
 ### Case 2: Deleting a Node with One Child  
 - If the node has **only one child**, the child takes the place of the deleted node.  
 - Two scenarios:  
@@ -20,15 +28,34 @@ My (and ChatGPT's) additions to Professor Griffin's BST code to add a delete fil
 - **Right child only** → Replace node with its right child.  
 - Example:
 
+               8
+              /
+             3
+            /
+           1
+- Deleting 3 results in:
+  
+              8 
+             /
+            3
+
 ### Case 3: Deleting a Node with Two Children  
 - Find the **inorder successor** (smallest node in the right subtree) or **inorder predecessor** (largest node in the left subtree).  
 - Replace the node’s value with that of the successor or predecessor.  
 - Recursively delete the successor or predecessor.  
 - Example:
-
+              
+               8
+              / \
+             3   10
+            /
+           1
   - Deleting `3`:  
   - Find the **inorder successor** (`1` or `10`).  
   - Replace `3` with `1` or `10`.  
   - Delete the chosen successor or predecessor.  
 - Result:
 
+              8
+             / \
+            1   10
