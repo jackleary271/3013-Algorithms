@@ -95,7 +95,7 @@ private:
     return root;
   }
 
- // **🔴 Helper function to collect all values in the tree**
+ // **🔴 function to collect all values in the tree**
   void _collectValues(Node* root, vector<int>& values) {
     if (root == nullptr) return;
     _collectValues(root->left, values);
@@ -139,7 +139,8 @@ int main() {
   tree.insert(7);
   tree.insert(15);
 
-  tree.deleteRandomNode(); // **🔴 Delete a random node instead of a specific one**
+  // **🔴 Delete a random node instead of a specific one**
+  tree.deleteRandomNode(); 
 
   tree.print();
 }
