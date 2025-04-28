@@ -3,4 +3,4 @@
 ### Description:
 The presentation I watched at Celebration of Scholarship.
 
-<img src="https://github.com/user-attachments/assets/9e44d65f-95e6-41ec-954d-c7e777c9a224" width="200">
+<img src="https://github.com/user-attachments/assets/59db1894-6367-46a6-9460-df774203f1ef" width="750">
