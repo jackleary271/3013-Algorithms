@@ -1,7 +1,7 @@
 # 📦 Non-Cryptographic Hash Algorithms
 
 ### A Presentation by Jack Leary
-
+https://docs.google.com/presentation/d/1nIQ51LyxyyfVvfyt16fQQzJ1GK1FDZ10TzmoubDC5qU/edit?slide=id.p#slide=id.p
 ---
 
 ## 🧠 What Are Non-Cryptographic Hash Algorithms?
